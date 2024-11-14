@@ -1,7 +1,7 @@
 ---
 title: "Intersystem Crossing in Boron-Based Donor–Spiro–Acceptor Organic Chromophore: A Detailed Theoretical Study"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2021-intersystem-crossing-boron-based-chromophore
 excerpt: 'A detailed theoretical study on intersystem crossing in boron-based donor–spiro–acceptor organic chromophore.'
 date: 2021-08-03

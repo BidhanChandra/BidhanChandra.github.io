@@ -1,7 +1,7 @@
 ---
 title: "Ambient Room Temperature Phosphorescence and Thermally Activated Delayed Fluorescence from a Core Substituted Pyromellitic Diimide Derivative"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2021-ambient-room-temperature-phosphorescence
 excerpt: 'Ambient room temperature phosphorescence and thermally activated delayed fluorescence from a core substituted pyromellitic diimide derivative.'
 date: 2021-04-22

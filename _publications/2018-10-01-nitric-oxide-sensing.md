@@ -1,7 +1,7 @@
 ---
 title: "Nitric Oxide Sensing Through 1, 2, 3, 4-Oxatriazole Formation From Acylhydrazide: A Kinetic Study"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2018-nitric-oxide-sensing
 excerpt: 'A kinetic study on nitric oxide sensing through oxatriazole formation from acylhydrazide.'
 date: 2018-10-01
