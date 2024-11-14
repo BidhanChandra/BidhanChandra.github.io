@@ -3,7 +3,7 @@ title: "Conformational Dynamics of the Pyrene Excimer"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-date: 2024-14-11
+date: 2024-11-14
 venue: 'Physical Chemistry Chemical Physics'
 ---
 The conformational dynamics of the pyrene excimer play a critical role in its unique fluorescence properties. Yet, the influence of multiple local minima on its excited-state behavior remains underexplored. Using a combination of time dependent density functional theory (TD-DFT)-and unsupervised machine learning analysis, we have identified and characterized a diverse set of stable excimer geometries in the first excited state. Our analysis reveals that rapid structural reorganization towards the most stable stacked-twisted conformer dominates the excimer’s photophysics, outcompeting radiative relaxation. This conformer, which is primarily responsible for the characteristic red-shifted, structureless fluorescence emission, reconciles experimental observations of long fluorescence lifetimes and emission profiles. These findings provide new insights into the excited-state dynamics of excimers. They may inform the design of excimer-based materials in fields ranging from organic electronics to molecular sensing.
