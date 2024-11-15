@@ -1,7 +1,7 @@
 ---
 title: "Tailoring Dual Emissions from Pyromellitic Diimide Derivatives through Substitution: A Theoretical Perspective"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2023-dual-emissions-pyromellitic-diimide
 excerpt: 'A theoretical study on the impact of substitution on dual emissions from pyromellitic diimide derivatives.'
 date: 2023-08-01

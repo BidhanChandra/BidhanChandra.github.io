@@ -1,7 +1,7 @@
 ---
 title: "Conformational Dynamics of the Pyrene Excimer"
 collection: publications
-category: masnuscripts
+category: manuscripts
 permalink: /publication/2023-conformational-dynamics-pyrene-excimer
 excerpt: 'This study explores the conformational dynamics of the pyrene excimer, providing insights into its photophysical properties.'
 date: 2024-11-15
