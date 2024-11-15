@@ -1,7 +1,7 @@
 ---
 title: "Delineating Conformation Control in the Photophysical Behaviour of a Molecular Donor–Acceptor–Donor Triad"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2021-delineating-conformation-control
 excerpt: 'This work investigates how conformation control influences the photophysical behavior of a molecular donor–acceptor–donor triad.'
 date: 2021-11-22

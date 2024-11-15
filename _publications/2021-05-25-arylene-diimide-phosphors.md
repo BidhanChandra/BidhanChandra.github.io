@@ -1,7 +1,7 @@
 ---
 title: "Arylene Diimide Phosphors: Aggregation Modulated Twin Room Temperature Phosphorescence from Pyromellitic Diimides"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2021-arylene-diimide-phosphors
 excerpt: 'This work explores the aggregation-modulated twin room temperature phosphorescence behavior of pyromellitic diimides.'
 date: 2021-05-25

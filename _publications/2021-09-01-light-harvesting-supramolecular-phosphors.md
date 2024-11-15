@@ -1,7 +1,7 @@
 ---
 title: "Light-Harvesting Supramolecular Phosphors: Highly Efficient Room Temperature Phosphorescence in Solution and Hydrogels"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2021-light-harvesting-supramolecular-phosphors
 excerpt: 'This study presents highly efficient room temperature phosphorescence in solution and hydrogels through light-harvesting supramolecular phosphors.'
 date: 2021-09-01

@@ -1,0 +1,11 @@
+---
+title: "Anion-π Induced Room Temperature Phosphorescence from Emissive Charge-Transfer States"
+collection: publications
+category: manuscripts
+permalink: /publication/2022-anion-pi-induced-phosphorescence
+excerpt: 'This work explores anion-π interactions as a mechanism for inducing room temperature phosphorescence from emissive charge-transfer states.'
+date: 2022-06-15
+venue: 'Journal of the American Chemical Society'
+citation: 'Swadhin Garain, Sopan M. Wagalgave, Anju Ajayan Kongasseri, Bidhan Chandra Garain, Shagufi Naz Ansari, Gopa Sardar, Dinesh Kabra, Swapan K. Pati, Subi J. George. (2022). &quot;Anion-π Induced Room Temperature Phosphorescence from Emissive Charge-Transfer States.&quot; <i>Journal of the American Chemical Society</i>, 144(24), 10854–10861.'
+---
+The burgeoning noncovalent interactions between π-acidic aromatic surfaces and anions have been recently shown to have unique functional relevance in anion transport, ion sensing, and organocatalysis. Despite its potential to instigate charge-transfer (CT) states, modulation of the emission features by toggling between the excited states using anion−π interactions is not yet explored. On the other hand, excited states with CT characteristics play an important role in the ambient triplet harvesting of organic chromophores. In this context, herein we propose an anion−π-based molecular design for the introduction of emissive singlet and triplet CT excited states, thereby expanding the functional scope of these weak supramolecular interactions. In the present study, we investigate the anion−π-induced emission from the singlet (1CT) and triplet (3CT) CT states of a dibromo dicationic pyromellitic diimide derivative. Remarkably, we accomplish dual room temperature phosphorescence emission from the anion−π-mediated 3CT state along with the locally excited triplet state (3LE) in solution phase using an organic–inorganic supramolecular scaffolding strategy. Comprehensive steady-state and time-resolved spectroscopy along with theoretical calculations provide detailed insights into the excited-state manifolds of phosphor. We envisage that the present study will expedite new molecular designs based on weak intermolecular interactions for the excited-state engineering of organic chromophores to facilitate ambient triplet harvesting and CT emission.
