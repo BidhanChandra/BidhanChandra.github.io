@@ -1,6 +1,7 @@
 ---
 title: "Training a simple Feedforward Neural Network for binary classification"
 date: 2024-11-15
+excerpt: "In this tutorial, we will write a simple feedforward neural network with two hidden layers to solve a binary classification problem using a synthetic dataset."
 permalink: /posts/2024/11/FFNN training/
 tags:
   - Machine Learning
@@ -8,8 +9,6 @@ tags:
   - Classification
 ---
 
-
-## Setup
 
 
 ```
@@ -146,7 +145,7 @@ $$
 where $$h_3$$ is the final output of the network.
 
 ### Gradient Computation (`grad` function):
-The gradient of the loss with respect to each parameter is computed in the `grad` function. The gradient of the weight $w_1$ is calculated using the chain rule:
+The gradient of the loss with respect to each parameter is computed in the `grad` function. The gradient of the weight $$w_1$$ is calculated using the chain rule:
 $$
 \frac{\partial L}{\partial w_1} = (h_3 - y) \cdot h_3 \cdot (1 - h_3) \cdot w_5 \cdot h_1 \cdot (1 - h_1) \cdot x_1
 $$
