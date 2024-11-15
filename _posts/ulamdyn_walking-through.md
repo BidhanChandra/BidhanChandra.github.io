@@ -1,10 +1,11 @@
 ---
 title: "ULaMDyn Walkthrough Example"
-collection: posts
 date: 2024-11-15
-tags: [Unsupervised Learning, NAMD simulations, Newton-X]
-permalink: permalink: /posts/2024/11/ULaMDyn Walkthough Example/
-excerpt: 'This post covers how to use ULaMDyn to perform unsupervised learning analysis on NAMD data.'
+permalink: /posts/2024/11/ULaMDyn Walkthough Example/
+tags:
+  - Unsupervised Learning
+  - NAMD dataset
+  - Newton-X
 ---
 
 # Walking through
