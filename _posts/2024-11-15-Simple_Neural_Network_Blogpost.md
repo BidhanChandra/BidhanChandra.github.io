@@ -108,14 +108,14 @@ print(X_train.shape, X_val.shape)
 The network is initialized with 6 random weights ($$w_1, w_2, w_3, w_4, w_5, w_6$$) and 3 biases ($$b_1, b_2, b_3$$). These parameters define the connections between the layers of the network.
 
 - $$w_1, w_2$$: Weights for the first layer (input to hidden neuron 1).
-- $$w_3, w_4$$: Weights for the second layer (input to hidden neuron 2).
-- $$w_5, w_6$$: Weights for the third layer (hidden neurons to output).
+- $$w_3, w_4$$: Weights for the first layer (input to hidden neuron 2).
+- $$w_5, w_6$$: Weights for the second layer (hidden neurons to output).
 - $$b_1, b_2, b_3$$: Bias terms for each layer.
 
 ### Forward Pass:
 In the forward pass, the network computes the output layer $$h_3$$ using the following equations:
 
-1. **Input to hidden layer 1:**
+1. **Input to neuron 1:**
 $$
 a_1 = w_1 \cdot x_1 + w_2 \cdot x_2 + b_1
 $$
@@ -127,7 +127,7 @@ $$
 \sigma(x) = \frac{1}{1 + e^{-x}}.
 $$
 
-2. **Input to hidden layer 2:**
+2. **Input to neuron 2:**
 $$
 a_2 = w_3 \cdot x_1 + w_4 \cdot x_2 + b_2
 $$
@@ -301,14 +301,14 @@ The model will adjust its weights iteratively to minimize the loss, and the loss
 The network is initialized with 6 random weights ($$w_1, w_2, w_3, w_4, w_5, w_6$$) and 3 biases ($$b_1, b_2, b_3$$). These parameters define the connections between the layers of the network.
 
 - $$w_1, w_2$$: Weights for the first layer (input to hidden neuron 1).
-- $$w_3, w_4$$: Weights for the second layer (input to hidden neuron 2).
-- $$w_5, w_6$$: Weights for the third layer (hidden neurons to output).
+- $$w_3, w_4$$: Weights for the first layer (input to hidden neuron 2).
+- $$w_5, w_6$$: Weights for the second layer (hidden neurons to output).
 - $$b_1, b_2, b_3$$: Bias terms for each layer.
 
 ### Forward Pass:
 In the forward pass, the network computes the output layer $$h_3$$ using the following equations:
 
-1. **Input to hidden layer 1:**
+1. **Input to neuron 1:**
 $$
 a_1 = w_1 \cdot x_1 + w_2 \cdot x_2 + b_1
 $$
@@ -320,7 +320,7 @@ $$
 \sigma(x) = \frac{1}{1 + e^{-x}}.
 $$
 
-2. **Input to hidden layer 2:**
+2. **Input to neuron 2:**
 $$
 a_2 = w_3 \cdot x_1 + w_4 \cdot x_2 + b_2
 $$
@@ -398,7 +398,7 @@ $$
 
 4. **Prediction:**
    - **First FFNetwork:** Only provides the final output `h_3` in the `predict` function.
-   - **Second FFNetwork:** Provides additional functions (`predict_h1`, `predict_h2`, `predict_h3`) to track the activations of hidden layers 1, 2, and the output layer, offering a more detailed insight into the model's behavior.
+   - **Second FFNetwork:** Provides additional functions (`predict_h1`, `predict_h2`, `predict_h3`) to track the activations of hidden layers 1, and the output layer, offering a more detailed insight into the model's behavior.
 
 5. **Loss Tracking and Visualization:**
    - **First FFNetwork:** Loss tracking is set up but not functional due to incomplete gradient calculation.
@@ -631,8 +631,8 @@ This function is called to visualize the decision boundaries of the neural netwo
 
 The function will generate three contour plots, each corresponding to one of the hidden layers:
 
-1. **First Plot (`h1`)**: Visualizes how the activation of the first hidden layer changes with respect to the input space.
-2. **Second Plot (`h2`)**: Visualizes the activation of the second hidden layer.
+1. **First Plot (`h1`)**: Visualizes how the activation of the first hidden layer (neuron 1) changes with respect to the input space.
+2. **Second Plot (`h2`)**: Visualizes the activation of the first hidden layer (neuron 2).
 3. **Third Plot (`h3`)**: Visualizes the final output layer's activation.
 
 These plots help to understand how the neural network's hidden layers transform the input space and contribute to the decision-making process.
