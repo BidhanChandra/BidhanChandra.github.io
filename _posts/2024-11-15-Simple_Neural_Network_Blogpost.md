@@ -1,7 +1,7 @@
 ---
 title: "Training a simple Feedforward Neural Network for binary classification"
 date: 2024-11-15
-excerpt: "In this tutorial, we will write a simple feedforward neural network with two hidden layers to solve a binary classification problem using a synthetic dataset."
+excerpt: "In this blog post, I will demonstrate how to build a simple feedforward neural network with two hidden layers from scratch using only the NumPy library. We'll tackle a binary classification problem with a synthetic dataset and explore the mathematical foundations of the forward pass and backpropagation process."
 permalink: /posts/2024/11/FFNN training/
 tags:
   - Machine Learning
