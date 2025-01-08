@@ -16,6 +16,6 @@ I have experience contributing to [ULaMDyn](https://ulamdyn.com/index.html) a Py
 
 Recent News
 ======
-14 November, 2024
-New manuscript accepted! [Conformational Dynamics of the Pyrene Excimer](https://pubs.rsc.org/en/Content/ArticleLanding/2024/CP/D4CP03947E) in Phys. Chem. Chem. Phys.!
+08 January, 2025
+New manuscript accepted![ULaMDyn: Enhamcing Excited-State Dynamics Analysis Through Streamlined Unsupervised Learning](https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00374H?page=search) in Digital Discovery!
 
