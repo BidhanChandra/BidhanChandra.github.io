@@ -2,7 +2,7 @@
 title: "Improved Prediction of Maximum EQE in TADF-based OLEDs Through Ensemble Learning"
 collection: publications
 category: preprints
-permalink: /publication/2022-07-15-improved-prediction.md
+permalink: /publication/2022-07-15-improved-prediction
 excerpt: 'Machine  learning study to predict the external quantum efficiency of TADF-based OLEDs'
 date: 2022-07-15
 venue: 'Chemxriv'
