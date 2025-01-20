@@ -208,7 +208,7 @@ svg:not(:root) {
 
 /* Navigation */
 header, nav {
-  background-color: #000;
+  background-color: $dark-gray;
   color: #fff;
   display: flex;
   justify-content: space-between;
