@@ -207,27 +207,50 @@ svg:not(:root) {
 }
 
 /* Navigation */
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+header, nav {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
 
-  li {
-    list-style: none;
-  }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
 
-  a {
-    text-decoration: none;
-  }
+nav a:hover {
+  background-color: #444;
+  color: #fff;
+}
 
-  ul li, ol li {
-    margin-bottom: 0;
-  }
+/* Sidebar */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
 
-  li ul, li ol {
-    margin-top: 0;
-  }
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.sidebar a:hover {
+  background-color: #444;
+}
+
+/* Icons */
+.icon {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+  color: $text-color;
 }
 
 /* Transitions */
