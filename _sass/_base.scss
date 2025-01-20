@@ -1,10 +1,11 @@
 /* ==========================================================================
-   Base Elements
+   BASE ELEMENTS
    ========================================================================== */
-
 html {
+  /* sticky footer fix */
   position: relative;
-  min-height: 100%; // Sticky footer fix
+  min-height: 100%;
+  background-color: #000; /* Ensure full page is black */
 }
 
 body {
@@ -14,25 +15,43 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  background-color: #000; /* Black background for consistency */
 
   &.overflow--hidden {
-    overflow: hidden; // Prevent background scrolling
+    /* when primary navigation is visible, the content in the background won't scroll */
+    overflow: hidden;
   }
 }
 
-/* Headings */
+header, nav {
+  background-color: #000; /* Set top section to black */
+  color: #fff; /* Ensure text remains visible */
+}
+
 h1, h2, h3, h4, h5, h6 {
-  margin: 1.5em 0 0.5em;
+  margin: 1.5em 0 0.5em; // Balanced spacing
   line-height: 1.3;
   font-family: $header-font-family;
   font-weight: bold;
-  color: $text-color;
+  color: $text-color; // Matches your black background theme
 }
 
-h1 { margin-top: 0.5em; font-size: $type-size-2; }
-h2 { font-size: $type-size-3; }
-h3 { font-size: $type-size-4; }
-h4, h5, h6 { font-size: $type-size-5; }
+h1 {
+  margin-top: 0.5em;
+  font-size: $type-size-2;
+}
+
+h2 {
+  font-size: $type-size-3;
+}
+
+h3 {
+  font-size: $type-size-4;
+}
+
+h4, h5, h6 {
+  font-size: $type-size-5;
+}
 
 small, .small {
   font-size: $type-size-7;
@@ -43,22 +62,28 @@ p {
   margin-bottom: 1.3em;
 }
 
-u, ins {
+u,
+ins {
   text-decoration: none;
   border-bottom: 1px solid $text-color;
-
   a {
     color: inherit;
   }
 }
 
-/* Reduce orphans and widows */
+del a {
+  color: inherit;
+}
+
+/* reduce orphans and widows when printing */
+
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   orphans: 3;
   widows: 3;
 }
 
-/* Abbreviations */
+/* abbreviations */
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: none;
@@ -66,7 +91,8 @@ abbr[data-original-title] {
   border-bottom: 1px dotted $text-color;
 }
 
-/* Blockquotes */
+/* blockquotes */
+
 blockquote {
   margin: 2em 1em 2em 0;
   padding-left: 1em;
@@ -84,28 +110,36 @@ blockquote {
   }
 }
 
-/* Links */
+/* links */
+
 a {
   &:focus {
     @extend %tab-focus;
   }
 
-  &:hover, &:active {
+  &:hover,
+  &:active {
     outline: 0;
   }
 }
 
-/* Code */
+/* code */
+
 tt, code, kbd, samp, pre {
   font-family: $monospace;
 }
 
 pre {
-  overflow-x: auto;
+  overflow-x: auto; /* add scrollbars to wide code blocks*/
 }
 
-p > code, a > code, li > code, figcaption > code, td > code {
-  padding: 0.1rem 0;
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
   font-size: $type-size-6;
   background: $code-background-color;
   border: 1px solid $lighter-gray;
@@ -114,11 +148,12 @@ p > code, a > code, li > code, figcaption > code, td > code {
 
   &:before, &:after {
     letter-spacing: -0.2em;
-    content: "\00a0";
+    content: "\00a0"; /* non-breaking space*/
   }
 }
 
-/* Horizontal rule */
+/* horizontal rule */
+
 hr {
   display: block;
   margin: 1em 0;
@@ -126,30 +161,44 @@ hr {
   border-top: 1px solid $border-color;
 }
 
-/* Lists */
-ul li, ol li {
+/* lists */
+
+ul li,
+ol li {
   margin-bottom: 0.5em;
 }
 
-li ul, li ol {
+li ul,
+li ol {
   margin-top: 0.5em;
 }
 
-/* Figures and Media */
+/*
+   Media and embeds
+   ========================================================================== */
+
+/* Figures and images */
+
 figure {
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+          align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
 
-  img, iframe, .fluid-width-video-wrapper {
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
     margin-bottom: 1em;
   }
 
   img {
     width: 100%;
     border-radius: $border-radius;
+    -webkit-transition: $global-transition;
     transition: $global-transition;
   }
 
@@ -158,29 +207,34 @@ figure {
   }
 
   &.half {
-    > a, > img {
+    > a,
+    > img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
       }
     }
+
     figcaption {
       width: 100%;
     }
   }
 
   &.third {
-    > a, > img {
+    > a,
+    > img {
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
       }
     }
+
     figcaption {
       width: 100%;
     }
   }
 }
 
-/* Captions */
+/* Figure captions */
+
 figcaption {
   margin-bottom: 0.5em;
   color: mix(#fff, $text-color, 25%);
@@ -191,6 +245,7 @@ figcaption {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid $light-gray;
+    -webkit-transition: $global-transition;
     transition: $global-transition;
 
     &:hover {
@@ -200,12 +255,18 @@ figcaption {
   }
 }
 
-/* SVG Fix */
+
+/* Fix IE9 SVG bug */
+
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* Navigation */
+
+/*
+   Navigation lists
+   ========================================================================== */
+
 nav {
   ul {
     margin: 0;
@@ -220,17 +281,24 @@ nav {
     text-decoration: none;
   }
 
-  ul li, ol li {
+  /* override white-space for nested lists */
+  ul li,
+  ol li {
     margin-bottom: 0;
   }
 
-  li ul, li ol {
+  li ul,
+  li ol {
     margin-top: 0;
   }
 }
 
-/* Transitions */
+/*
+   Global animation transition
+   ========================================================================== */
+
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+  -webkit-transition: $global-transition;
   transition: $global-transition;
 }
 
