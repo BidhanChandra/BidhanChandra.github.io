@@ -101,6 +101,8 @@ a {
    ========================================================================== */
 tt, code, kbd, samp, pre {
   font-family: $monospace;
+  background-color: #000;
+  color: #fff;
 }
 
 pre {
