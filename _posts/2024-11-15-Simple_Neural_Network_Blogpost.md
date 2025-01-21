@@ -10,8 +10,8 @@ tags:
 ---
 
 
-
-```
+<div class="dark-code">
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors
