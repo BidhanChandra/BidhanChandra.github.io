@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Bidhan Chandra Garain, PhD"
+title                    : "Bidhan Chandra Garain"
 title_separator          : "-"
 name                     : &name "Bidhan Chandra Garain"
 description              : &description "Posdoctoral Researcher at Aix-Marseille Universite"
